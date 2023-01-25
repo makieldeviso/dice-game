@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+    width: 100vh;
+} */
+
+main {
+    width: 1000px;
+    background-color: bisque;
+    text-align: center;
+    margin:0 auto;
+}
+
+.welcome {
+    height: 15vh;
+}
+
+.welcome h1 {
+    padding: 15px;
+    font-size: 4rem;
+    color: #939B62;
+    font-family: 'Satisfy', cursive;
+}
+
+.result-container {
+    width: 100%;
+    height: 15vh;
+    background-color: #FF7B54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container p {
+    font-size: 3rem;
+    color: bisque;
+}
+
+.play-space {
+    height: 60vh;
+    padding: 10px;
+    display: flex;
+    justify-content:center ;
+    gap: 50px;
+}
+
+#player1 {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    border: 6px solid yellowgreen;
+    border-radius: 30px;
+    background-color:cadetblue;
+    padding: 40px;
+}
+
+#player2 {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    border: 6px solid rgb(62, 214, 234);
+    border-radius: 30px;
+    background-color:cornflowerblue;
+    padding: 40px;
+
+}
+
+.dice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.six div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 0, 0.683);
+    background-color: chocolate;
+}
+
+
+/* adjust styles for 3 and 5 start */
+.three {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.five div:nth-child(3){
+    margin: 0 50px;
+}
+
+/* adjust styles for 3 and 5 end */
+
+
+.play-space h2 {
+    font-size: 2.3rem;
+}
+
+.play-space p {
+    font-size: 2rem;
+}
+
+
+.interface p {
+    font-size: 5rem;
+    margin: 150px 0 110px;
+    font-weight: bold;
+    color: #FF7B54;
+}
+
+
+#roll {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid rgb(233, 187, 122);
+    background-color: #FFD56F;
+    color: #939B62;
+    font-weight: bold;
+}
+
+#roll:hover {
+    filter: brightness(80%);
+}
+
+
+footer {
+    height: 10vh;
+}
